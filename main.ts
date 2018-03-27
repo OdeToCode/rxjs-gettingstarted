@@ -1,6 +1,6 @@
 import {Observable} from "rxjs";
 
-let numbers = [1, 5, 10];
+let numbers = [1, 5, 11];
 let source = Observable.create(observer => {
 
     let index = 0;

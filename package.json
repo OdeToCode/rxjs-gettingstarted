@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack-serve --watch --inline"
+    "start": "webpack-serve --open --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js"
   },
   "dependencies": {
     "rxjs": "5.5.7"
@@ -12,6 +13,7 @@
     "ts-loader": "4.1.0",
     "typescript": "2.7.2",
     "webpack": "4.1.1",
+    "webpack-cli": "2.0.13",
     "webpack-serve": "0.2.0"
   }
 }

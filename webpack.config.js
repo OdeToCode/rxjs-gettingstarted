@@ -1,6 +1,11 @@
+var path = require("path");
+
 module.exports = {
     entry: "./main",
-    output: { filename: "app.js" },
+    output: {        
+        filename: "app.js",
+        path: __dirname
+    },
     module: {
         rules: [
             {
